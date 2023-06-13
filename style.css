@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*GENERALE-------------------------------------------------------------------*/
+
+h1, h2{
+    font-family: 'Emilys Candy', cursive;
+}
+
+h1{
+    font-size: 160px;
+    /*per ora mettiamo la grandezza in pixel, più avanti troveremo nuove unità di misura*/
+    margin:0px;
+}
+
+header{
+    background-image: url(./assets/caramelle3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: white;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 0px;
+    }
+    
+    .gallery-img{
+        width: 30%;
+    }
+
+main{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 12px;
+}
+
+body{
+    background-color: crimson;
+    /*se scrivo i colori con l'esadecimale, posso anche indicare la trasparenza (lo slider verticale nel colour picker) */
+    margin: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+footer{
+    background-color: #050512;
+    padding: 20px;
+}
+
+/*HOME---------------------------------------------------------------------------------------------------------------------*/
+
+.video-home{
+    /* display: block;
+margin: 0 auto; */
+width: 800px;
+height: 400px;
+}
+
+.home-image{
+    width: 100%;
+}
+
+
+.nav-link{
+    color: #313131;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0px 4px;
+}
+
+
+
+/*quando metto una percentuale, la percentuale si riferisce al primo parente utile che abbia la dimensione definita. Body per definizione è grande come tutta la pagina*/
+
+
+
+
+.footer-text{
+    color: white;
+}
+
